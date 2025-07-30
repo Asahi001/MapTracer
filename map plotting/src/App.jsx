@@ -14,7 +14,7 @@ export default function App() {
 
   const showManual = false;
 
-  const url = `http://localhost:8080/route`;
+  const url = `https://maptracer.onrender.com/route`;
 
   const [routeCoordinates, setRouteCoordinates] = useState([]);
   const [position, setPosition] = useState(pickupPoint);
