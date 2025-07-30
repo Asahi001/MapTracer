@@ -9,7 +9,7 @@ import {
 const Map = ({ car, position}) => {
   const pickupPoint = [17.466479, 78.425419];
   const dropPoint = [17.42212, 78.455212];
-  const url = `http://localhost:8080/route`;
+  const url = `https://maptracer.onrender.com/route`;
   const [routeCoordinates, setRouteCoordinates] = useState([]);
 
   // delete L.Icon.Default.prototype._getIconUrl;
